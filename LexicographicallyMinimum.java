@@ -15,7 +15,7 @@ class Soln {
     }
 }
 
-public class Main {
+public class LexicographicallyMinimum {
     public static void main(String[] args) {
         String s = "de*";
         Soln sc = new Soln();

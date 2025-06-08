@@ -4,7 +4,7 @@ class Soln {
 
         for (char ch : s.toCharArray()) {
             if (ch == '*') {
-                if (sb.length() > 0) {
+                if (sb.length()>0) {
                     sb.deleteCharAt(sb.length() - 1);
                 }
             } else {
@@ -17,7 +17,7 @@ class Soln {
 
 public class LexicographicallyMinimum {
     public static void main(String[] args) {
-        String s = "de*";
+        String s = "deaab*";
         Soln sc = new Soln();
         System.out.println(sc.clearStars(s));
     }
